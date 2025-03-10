@@ -1,6 +1,7 @@
 // File: hello.cpp
 #include <numeric>
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main(void) {
