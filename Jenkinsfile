@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "Building the application..."
-                    sh "g++ -std=c++20 -o output main.cpp"
+                    sh "make -C main"
                 }
             }
         }
