@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(void) {
-  std::vector<int> universe = {20, 30, -10, 2};
+  vector<int> universe = {20, 30, -10, 2};
   cout << "Hello, World\n";
   cout << "Hello, Jenkins\n";
   cout << "I have successfully built and run this  \n";
