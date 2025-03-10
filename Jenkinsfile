@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "Building the application..."
-                    sh 'g++ -std=c++20 -o output main.cpp'
+                    sh "g++ -std=c++20 -o output main.cpp"
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo "Running tests..."
-                    sh './output'
+                    sh "./output"
                 }
             }
         }
@@ -28,10 +28,14 @@ pipeline {
                 }
             }
         }
+    }
 
     post {
         failure {
             echo "Pipeline failed"
+        }
+        success {
+            echo "Pipeline completed successfully!"
         }
     }
 }
