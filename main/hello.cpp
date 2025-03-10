@@ -11,5 +11,6 @@ int main(void) {
   cout << "I have successfully built and run this  \n";
   cout << "The answer to life, universe and everything is: "
        << accumulate(universe.cbegin(), universe.cend(), 0) << endl;
+  cout << "-- Douglas Adams" << endl;
   return 0;
 }
