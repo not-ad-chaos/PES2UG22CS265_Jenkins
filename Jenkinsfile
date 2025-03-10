@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo "Running tests..."
-                    sh "./hello_exec"
+                    sh "./main/hello_exec"
                 }
             }
         }
